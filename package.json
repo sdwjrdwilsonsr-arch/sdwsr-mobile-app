@@ -1,5 +1,50 @@
 {
+  "name": "sdwsr-mobile-app",
+  "version": "1.0.0",
+  "description": "SDWSR Mobile App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.html",
+    "format": "prettier --write \"**/*.{js,html,css}\"",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "keywords": [
+    "mobile",
+    "app",
+    "sdwsr"
+  ],
+  "author": "sdwjrdwilsonsr-arch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdwjrdwilsonsr-arch/sdwsr-mobile-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sdwjrdwilsonsr-arch/sdwsr-mobile-app/issues"
+  },
+  "homepage": "https://github.com/sdwjrdwilsonsr-arch/sdwsr-mobile-app#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.106.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@vitejs/plugin-vue": "^5.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "globals": "^15.0.0",
+    "prettier": "^3.0.0",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.0"
   }
 }
